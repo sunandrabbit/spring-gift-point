@@ -33,7 +33,7 @@ else
 fi
 
 echo "배포 디렉토리 생성"
-DEPLOY_PATH=/home/ubuntu/spring-gift-point/app/
+DEPLOY_PATH="/home/ubuntu/spring-gift-point/app"
 mkdir -p $DEPLOY_PATH
 
 echo "빌드된 파일 배포 경로로 이동"
